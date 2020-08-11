@@ -1,0 +1,14 @@
+{
+    "name":"Arabic (PIME)",
+    "version": "1.00",
+    "guid": "{C7E3DA59-A9D8-4A3B-90DC-58700FAF20CD}",
+    "locale": "%locale",
+    "fallbackLocale": "%locale",
+    "icon": "icon.ico",
+    "win8_icon": "",
+    "moduleName": "arabic_ime",
+    "serviceName": "ArabicTextService",
+    "configTool": "..\\..\\python3\\pythonw.exe",
+    "configToolParams": "configtool.py config arabic",
+    "configToolDir": "..\\..\\cinbase"
+}
