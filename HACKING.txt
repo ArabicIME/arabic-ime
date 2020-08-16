@@ -75,10 +75,3 @@ Directory structure
     All input method modules implemented using Python 3. If you're trying to implement your
     own input method, you should put your module in this directory.
 
-* node
-  node.js backend of PIME, including node.js 6.3 binaries.
-
-  * node/input_methods:
-    All input method modules implemented using node.js. If you're trying to implement your
-    own input method, you should put your module in this directory.
-
