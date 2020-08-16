@@ -7,8 +7,6 @@ In order to ease the lives of everyone who needs to type in Arabic using non-Ara
 
 # arabic-ime is an Arabic IME based on the PIME project
 
-Arabic support is not yet implemented, changes coming soon.
-
 [![Build status](https://ci.appveyor.com/api/projects/status/ju8c225nt9qgxeee?svg=true)](https://ci.appveyor.com/project/EasyIME/PIME)
 [![GitHub release](https://img.shields.io/github/release/EasyIME/PIME.svg)](https://github.com/EasyIME/PIME/releases)
 
@@ -35,8 +33,8 @@ All parts are licensed under GNU LGPL v2.1 license.
 
 *   Use the following CMake commands to generate Visual Studio project.
 
-        cmake -G "Visual Studio 16 2019" -A Win32 <path to arabic-ime> -B "build"
-        cmake -G "Visual Studio 16 2019" -A x64 <path to arabic-ime> -B "build64"
+        cmake -G "Visual Studio 16 2019" -A Win32 . -B "build"
+        cmake -G "Visual Studio 16 2019" -A x64 . -B "build64"
 
 *   Open a generated project with Visual Studio and build it. You'll need to build both for 64-bit.
 
