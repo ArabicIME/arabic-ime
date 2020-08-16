@@ -29,7 +29,6 @@ All parts are licensed under GNU LGPL v2.1 license.
 
         git clone https://github.com/ArabicIME/arabic-ime.git
         cd arabic-ime
-        git submodule update --init
 
 *   Use the following CMake commands to generate Visual Studio project.
 
